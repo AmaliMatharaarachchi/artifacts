@@ -80,10 +80,10 @@ spec:
           resources:
             requests:
               memory: "1000Mi"
-              cpu: "1000m"
+              cpu: "250m"
             limits:
               memory: "1000Mi"
-              cpu: "1000m"
+              cpu: "250m"
           ports:
             - containerPort: 8081
             - containerPort: 9001
@@ -144,10 +144,10 @@ spec:
           resources:
             requests:
               memory: "500Mi"
-              cpu: "1000m"
+              cpu: "250m"
             limits:
               memory: "500Mi"
-              cpu: "1000m"
+              cpu: "250m"
           ports:
             - containerPort: 9000
             - containerPort: 9095
